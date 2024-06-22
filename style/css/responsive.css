@@ -1,0 +1,977 @@
+@font-face {
+    font-family: 'TT Norms ExtraBold';
+    src: url('/style/fonts/TTNorms-ExtraBoldItalic.eot');
+    src: local('/style/fonts/TT Norms ExtraBold Italic'), local('TTNorms-ExtraBoldItalic'),
+        url('/style/fonts/TTNorms-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('/style/fonts/TTNorms-ExtraBoldItalic.woff') format('woff'),
+        url('/style/fonts/TTNorms-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('/style/fonts/TTNorms-Bold.eot');
+    src: local('/style/fonts/TT Norms Bold'), local('TTNorms-Bold'),
+        url('/style/fonts/TTNorms-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/style/fonts/TTNorms-Bold.woff') format('woff'),
+        url('/style/fonts/TTNorms-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('/style/fonts/TTNorms-Thin.eot');
+    src: local('/style/fonts/TT Norms Thin'), local('TTNorms-Thin'),
+        url('/style/fonts/TTNorms-Thin.eot?#iefix') format('embedded-opentype'),
+        url('/style/fonts/TTNorms-Thin.woff') format('woff'),
+        url('/style/fonts/TTNorms-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('/style/fonts/TTNorms-Regular.eot');
+    src: local('/style/fonts/TT Norms Regular'), local('TTNorms-Regular'),
+        url('/style/fonts/TTNorms-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/style/fonts/TTNorms-Regular.woff') format('woff'),
+        url('/style/fonts/TTNorms-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Norms Thin';
+    src: url('/style/fonts/TTNorms-ThinItalic.eot');
+    src: local('/style/fonts/TT Norms Thin Italic'), local('TTNorms-ThinItalic'),
+        url('/style/fonts/TTNorms-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('/style/fonts/TTNorms-ThinItalic.woff') format('woff'),
+        url('/style/fonts/TTNorms-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('/style/fonts/TTNorms-Italic.eot');
+    src: local('/style/fonts/TT Norms Italic'), local('TTNorms-Italic'),
+        url('/style/fonts/TTNorms-Italic.eot?#iefix') format('embedded-opentype'),
+        url('/style/fonts/TTNorms-Italic.woff') format('woff'),
+        url('/style/fonts/TTNorms-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('/style/fonts/TTNorms-Heavy.eot');
+    src: local('/style/fonts/TT Norms Heavy'), local('TTNorms-Heavy'),
+        url('/style/fonts/TTNorms-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('/style/fonts/TTNorms-Heavy.woff') format('woff'),
+        url('/style/fonts/TTNorms-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('/style/fonts/TTNorms-Light.eot');
+    src: local('/style/fonts/TT Norms Light'), local('TTNorms-Light'),
+        url('/style/fonts/TTNorms-Light.eot?#iefix') format('embedded-opentype'),
+        url('/style/fonts/TTNorms-Light.woff') format('woff'),
+        url('/style/fonts/TTNorms-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Norms Black';
+    src: url('/style/fonts/TTNorms-BlackItalic.eot');
+    src: local('/style/fonts/TT Norms Black Italic'), local('TTNorms-BlackItalic'),
+        url('/style/fonts/TTNorms-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('/style/fonts/TTNorms-BlackItalic.woff') format('woff'),
+        url('/style/fonts/TTNorms-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('/style/fonts/TTNorms-ExtraLight.eot');
+    src: local('/style/fonts/TT Norms ExtraLight'), local('TTNorms-ExtraLight'),
+        url('/style/fonts/TTNorms-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('/style/fonts/TTNorms-ExtraLight.woff') format('woff'),
+        url('/style/fonts/TTNorms-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Norms Light';
+    src: url('/style/fonts/TTNorms-LightItalic.eot');
+    src: local('/style/fonts/TT Norms Light Italic'), local('TTNorms-LightItalic'),
+        url('/style/fonts/TTNorms-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('/style/fonts/TTNorms-LightItalic.woff') format('woff'),
+        url('/style/fonts/TTNorms-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Norms ExtraLight';
+    src: url('/style/fonts/TTNorms-ExtraLightItalic.eot');
+    src: local('/style/fonts/TT Norms ExtraLight Italic'), local('TTNorms-ExtraLightItalic'),
+        url('/style/fonts/TTNorms-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('/style/fonts/TTNorms-ExtraLightItalic.woff') format('woff'),
+        url('/style/fonts/TTNorms-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Norms Bold';
+    src: url('/style/fonts/TTNorms-BoldItalic.eot');
+    src: local('/style/fonts/TT Norms Bold Italic'), local('TTNorms-BoldItalic'),
+        url('/style/fonts/TTNorms-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('/style/fonts/TTNorms-BoldItalic.woff') format('woff'),
+        url('/style/fonts/TTNorms-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('/style/fonts/TTNorms-Medium.eot');
+    src: local('/style/fonts/TT Norms Medium'), local('TTNorms-Medium'),
+        url('/style/fonts/TTNorms-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/style/fonts/TTNorms-Medium.woff') format('woff'),
+        url('/style/fonts/TTNorms-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('/style/fonts/TTNorms-Black.eot');
+    src: local('/style/fonts/TT Norms Black'), local('TTNorms-Black'),
+        url('/style/fonts/TTNorms-Black.eot?#iefix') format('embedded-opentype'),
+        url('/style/fonts/TTNorms-Black.woff') format('woff'),
+        url('/style/fonts/TTNorms-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Norms Medium';
+    src: url('/style/fonts/TTNorms-MediumItalic.eot');
+    src: local('/style/fonts/TT Norms Medium Italic'), local('TTNorms-MediumItalic'),
+        url('/style/fonts/TTNorms-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('/style/fonts/TTNorms-MediumItalic.woff') format('woff'),
+        url('/style/fonts/TTNorms-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Norms Heavy';
+    src: url('/style/fonts/TTNorms-HeavyItalic.eot');
+    src: local('/style/fonts/TT Norms Heavy Italic'), local('TTNorms-HeavyItalic'),
+        url('/style/fonts/TTNorms-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('/style/fonts/TTNorms-HeavyItalic.woff') format('woff'),
+        url('/style/fonts/TTNorms-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Norms';
+    src: url('/style/fonts/TTNorms-ExtraBold.eot');
+    src: local('/style/fonts/TT Norms ExtraBold'), local('TTNorms-ExtraBold'),
+        url('/style/fonts/TTNorms-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('/style/fonts/TTNorms-ExtraBold.woff') format('woff'),
+        url('/style/fonts/TTNorms-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+/*  Tablet Layout: 960px. */
+@media only screen and (min-width: 768px) and (max-width:991px) {
+.section-spacing {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.minus-15{
+    padding-bottom:calc(100px - 15px);
+    padding-top:calc(100px - 15px);
+}
+.skew-section-spacing {
+    padding-top: 140px;
+}
+.skew-bottom-spacing {
+  padding-bottom: 140px; }
+.banner-content h1 {
+    font-size: 40px;
+    line-height: 56px;
+}
+#responsive-menu{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 72px;
+}
+.header-brand a {
+    display: block;
+    padding-top: 0px;
+}
+.header-container{
+    padding:10px 0;
+}
+ul#responsive-menu li a {
+    padding: 10px 15px 10px 15px;
+}
+ul#responsive-menu ul {
+    width: 100%;
+}
+ul#responsive-menu li {
+    background-color: #ffffff;
+}
+ul#responsive-menu li .sub-toggle{
+    width:100%;
+}
+ul.slimmenu li .sub-toggle>i {
+    float: right;
+    top:9px;
+}
+ul#responsive-menu li a.btn-get {
+    top: 0;
+    border-radius:0;
+}
+.services-item {
+    padding-right: 100px;
+}
+.services-item-logo {
+    width: 160px;
+    height: 160px;
+}
+.services-item-desc {
+    width: calc( 100% - 160px);
+}
+.service-inverse {
+    padding-left: 0px;
+}
+.services-bg:after {
+    display:none;
+}
+.services-bg:before {
+    display:none;
+}
+.services-item-logo img {
+    left: 0px;
+}
+.feature-wrapper {
+    padding: 40px 15px;
+}
+.pricing-container {
+    padding-top: 0;
+}
+.counter-wrapper .counter-icon {
+    width: 60px;
+}
+.counter-wrapper .counter-content {
+    width: calc( 100% - 60px);
+    padding-left: 20px;
+}
+.pricing-box {
+    padding: 40px 15px;
+}
+.post-wrapper .post-desc {
+    padding: 15px;
+}
+.feature-container {
+    margin-bottom: 40px;
+}
+.error-container {
+    max-width: 500px;
+    margin: auto;
+}
+.plan-table .head-col ul li span.head-big {
+    font-size: 20px;
+}
+.plan-table .head-col span.head-title {
+    font-size: 16px;
+    margin-left: 16px;
+}
+.plan-table .head-col ul {
+    margin-left: 16px;
+}
+.plan-table .head-col h4 {
+    font-size: 16px;
+    margin-top: 40px;
+}
+.hosting-feature-container-logo{
+    display:none;
+}
+.shop-details-contact li {
+    margin-bottom: 10px;
+}
+.shop-details-tab-nav li{
+    margin-bottom: 10px !important;
+}
+.shop-wrapper{
+    margin-bottom:30px;
+}
+.footer-widget{
+    margin-bottom:40px;
+}
+.hosting-package-logo {
+    max-width: 250px;
+    margin: auto;
+}
+.hosting-package-details h2 {
+    font-size: 30px;
+    line-height: 44px;
+    margin-bottom: 20px;
+}
+.section-title h2 {
+    font-size: 35px;
+    line-height: 44px;
+    margin-bottom: 10px;
+}
+.section-title {
+    margin-bottom: 40px;
+}
+.counter-wrapper .counter-content span {
+    font-size: 35px;
+    line-height: 42px;
+}
+.counter-wrapper .counter-content p {
+    font-size: 14px;
+}
+.services-item {
+    margin-bottom: 60px;
+    padding-right:0;
+}
+.services-item-desc h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.services-item-desc h5 {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.about-content h2 {
+    font-size: 35px;
+    line-height: 46px;
+}
+.footer-widget h4 {
+    margin-bottom: 20px;
+}
+.domain-transfer-form h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 38px;
+}
+.domain-transfer-form {
+    padding: 30px;
+}
+.domain-transfer-details h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.blockquote {
+    margin-bottom: 40px;
+}
+.post-tags-share {
+    margin-bottom: 40px;
+}
+.post-author {
+    margin-bottom: 40px;
+}
+.post-comment-wrapper {
+    padding-left: 0px;
+}
+.post-comment .comment-info .comment-btn {
+    bottom: 30px;
+    top:auto;
+}
+.shop-details-container {
+    margin-bottom: 40px;
+}
+.shop-details-tab-nav {
+    margin-bottom: 20px;
+}
+.sidebar-widget {
+    margin-bottom: 40px;
+}
+.shop-thumb {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.support-container .support-logo img {
+    max-width: 230px;
+}
+.support-container .support-logo {
+    margin-bottom: 40px;
+}
+.hosting-feature-wrapper .hosting-feature-box {
+    margin-bottom: 40px;
+}
+.plan-container{
+    margin-bottom:40px;
+}
+}
+/*  Mobile Layout: 768px.  */
+
+@media only screen and (max-width: 768px) {
+.feature-wrapper.wow.pulse {
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+
+@media only screen and (max-width: 768px) {
+.names {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+.w3-bar.w3-black {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+.starprice {
+    margin-top: -55px;
+}
+
+@media only screen and (max-width: 768px) {
+.post-wrapper.wow.fadeIn {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+.arcet {
+    width: 100% !important;
+}
+
+@media only screen and (max-width: 768px) {
+a.droped {
+    margin-left: -145px;
+}
+
+@media only screen and (max-width: 768px) {
+.w3-bar-item.w3-button.tablink {
+    display: -webkit-inline-box;
+    float: left;
+    width: 100%;
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+a.blue-btn {float: left;margin-top: 30px;padding: 15px 36px;}
+
+@media only screen and (max-width: 768px) {
+span.ic-shops {
+    display: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+p.m2s {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+span.bg-play {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+span.bg-pt1 {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+.section-spacing {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.minus-15{
+    padding-bottom:calc(80px - 15px);
+    padding-top:calc(80px - 15px);
+}
+.section-title {
+    margin-bottom: 40px;
+}
+.pricing-container .section-title {
+    padding-bottom: 0;
+}
+.inner-spacing {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.skew-section-spacing {
+    padding-top: 100px;
+}
+.skew-bottom-spacing {
+  padding-bottom: 100px; }
+#responsive-menu{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 72px;
+}
+.header-brand a {
+    display: block;
+    padding-top: 0px;
+}
+.header-container{
+    padding:10px 0;
+}
+ul#responsive-menu li a {
+    padding: 10px 15px 10px 15px;
+}
+ul#responsive-menu ul {
+    width: 100%;
+}
+ul#responsive-menu li {
+    background-color: #ffffff;
+}
+ul#responsive-menu li .sub-toggle{
+    width:100%;
+}
+ul.slimmenu li .sub-toggle>i {
+    float: right;
+    top:9px;
+}
+ul#responsive-menu li a.btn-get {
+    top: 0;
+    border-radius:0;
+}
+.banner-area {
+    background-image: none;
+    min-height: 440px;
+}
+.banner-content h5 {
+    font-size: 18px;
+}
+.banner-content h1 {
+    font-size: 30px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+.counter-wrapper .counter-content span {
+    font-size: 35px;
+    line-height: 45px;
+}
+.counter-wrapper .counter-content p {
+    font-size: 16px;
+}
+.section-title h2 {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+.section-title h6 {
+    font-size: 14px;
+}
+.about-content p {
+    margin-bottom: 40px;
+}
+.about-content h2 {
+    font-size: 30px;
+    line-height: 40px;
+}
+.about-thumb {
+    max-width: 300px;
+}
+.feature-wrapper{
+    margin-bottom:30px;
+}
+.services-item {
+    padding-right: 30px;
+    margin-bottom:30px;
+}
+.services-item-logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom:30px;
+}
+.services-item-desc {
+    width: 100%;
+    padding-left: 0!important;
+    padding-right:0!important;
+}
+.service-inverse {
+    padding-left: 0px;
+}
+.services-bg:after {
+    display:none;
+}
+.services-bg:before {
+    display:none;
+}
+.services-item-logo img {
+    left: 0px;
+}
+.sidebar-right,
+.sidebar-right{
+    border:0;
+}
+.feature-wrapper {
+    padding: 40px 15px;
+}
+.pricing-container {
+    padding-top: 0;
+}
+.pricing-box {
+    padding: 40px 15px;
+}
+.post-wrapper .post-desc {
+    padding: 15px;
+}
+.feature-container {
+    margin-bottom: 30px;
+}
+.counter-wrapper {
+    margin-bottom: 30px;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+}
+.footer-widget {
+    margin-bottom:40px;
+}
+.pricing-plan,
+.pricing-plan2,
+.pricing-plan3{
+    left: 0 !important;
+    right: 0;
+    margin: auto;
+    border-radius: 0 !important;
+    width: 100% !important;
+}
+.pricing-box .pricing-plan:before ,
+.pricing-box .pricing-plan2:before ,
+.pricing-box .pricing-plan3:before {
+    display:none;
+}
+.footer-bar,.footer-nav{
+    float:none !important;
+    text-align:center !important;
+}
+.footer-nav{
+    padding-top:10px;
+}
+.error-container{
+    max-width: 200px;
+    margin: auto;
+}
+.wells-wrapper h1 {
+    font-size: 30px;
+    line-height: 40px;
+}
+.wells-breadcrumb .breadcrumb li a {
+    font-size: 14px;
+}
+.wells-breadcrumb .breadcrumb {
+    padding: 0;
+}
+.page-navigation {
+    margin-top: 20px;
+}
+.payment-cart-wrapper{
+    padding-top:30px;
+}
+.checkout-table {
+    margin-bottom: 40px;
+}
+.steps-container{
+    margin-bottom:30px;
+}
+.pricing-box {
+    margin-bottom:30px;
+}
+.pricing-first,
+.pricing-second,
+.pricing-third {
+    bottom: 0;
+}
+.sidebar-right,
+.sidebar-left{
+    margin-top:40px;
+}
+.hosting-package-logo {
+  margin-bottom:30px;
+}
+.privacy-policy{
+    margin-bottom:40px;
+}
+.plan-table .head-col ul li span.head-big {
+    font-size: 20px;
+}
+.plan-table .head-col span.head-title {
+    font-size: 16px;
+    margin-left: 8px;
+}
+.plan-table .head-col ul {
+    margin-left: 8px;
+}
+.plan-table .head-col h4 {
+    font-size: 16px;
+    margin-top: 40px;
+}
+.plan-table .head-col ul li {
+    font-size: 10px;
+    line-height: 20px;
+}
+.plan-table .body-col p {
+    font-size: 14px;
+    line-height: 20px;
+}
+.plan-table .btn-style1 {
+    padding: 5px 8px;
+    font-size: 14px;
+}
+.hosting-package-details{
+    margin-bottom:30px;
+}
+.domain-transfer-form{
+    margin-bottom:30px;
+}
+.hosting-feature-container-logo{
+    display:none;
+}
+.shop-details-contact li {
+    margin-bottom: 10px;
+}
+.shop-details-tab-nav li{
+    margin-bottom: 10px !important;
+}
+.shop-wrapper{
+    margin-bottom:30px;
+}
+.hosting-feature-full {
+    margin-bottom: 30px;
+}
+.checkout-table .head-col p {
+    font-size: 16px;
+}
+.footer-widget h4 {
+    margin-bottom: 10px;
+}
+.support-container .support-logo img {
+    max-width: 200px;
+}
+.support-container .support-logo {
+    margin-bottom: 40px;
+}
+.contact-form h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+#contact-map {
+    min-height: 300px;
+}
+.hosting-package-logo {
+    max-width: 200px;
+    margin: auto;
+    margin-bottom:30px;
+}
+.hosting-package-details h2 {
+    font-size: 23px;
+    line-height: 34px;
+    margin-bottom: 15px;
+}
+.contact-container{
+    margin-bottom:30px;
+}
+.hosting-feature-wrapper .hosting-feature-box .hosting-feature-logo {
+    margin-bottom: 20px;
+}
+.hosting-feature-wrapper .hosting-feature-box h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.domain-transfer-form h2 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 38px;
+}
+.domain-transfer-form {
+    padding: 30px;
+}
+.domain-transfer-details h2 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.blockquote {
+    margin-bottom: 40px;
+}
+.post-tags-share {
+    margin-bottom: 40px;
+}
+.post-author {
+    margin-bottom: 40px;
+}
+.post-comment-wrapper {
+    padding-left: 0;
+}
+.sidebar-right {
+    padding-left: 0;
+    border:0;
+}
+.sidebar-left {
+    padding-right: 0;
+    border:0;
+}
+.shop-details-container {
+    margin-bottom: 40px;
+}
+.shop-details-tab-nav {
+    margin-bottom: 20px;
+}
+.sidebar-widget {
+    margin-bottom: 40px;
+}
+.shop-thumb {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.support-container .support-logo {
+    margin-bottom: 40px;
+}
+.hosting-feature-wrapper {
+    padding: 0 15px;
+}
+.hosting-feature-wrapper .hosting-feature-box {
+    margin-bottom: 40px;
+}
+.plan-container{
+    margin-bottom:40px;
+}
+}
+/*  Small Layout 575px */
+@media only screen and (max-width: 575px) {
+body p, body a, body ul li, body ol li, label {
+    font-size: 14px;
+}
+::-webkit-input-placeholder {
+  font-size: 14px; }
+
+::-moz-placeholder {
+  font-size: 14px; }
+
+:-ms-input-placeholder {
+  font-size: 14px; }
+
+:-moz-placeholder {
+  font-size: 14px; }
+.section-title p {
+    font-size: 14px;
+    line-height: 28px;
+}
+.services-item-logo {
+    width: 100px;
+    height: 100px;
+    float: none;
+    clear: both;
+    margin-bottom: 30px;
+}
+.services-item-desc {
+    width: 100%;
+    padding-left: 0!important;
+    padding-right:0!important;
+}
+.service-inverse .services-item-logo {
+    float: left;
+}
+.service-inverse .services-item-desc {
+    text-align: left;
+}
+.pricing-container {
+    padding-top: 0;
+}
+.pricing-container .section-title {
+    padding-bottom: 0;
+}
+.counter-wrapper .counter-icon {
+    width: 60px;
+}
+.about-content p {
+    margin-bottom: 40px;
+}
+.about-thumb {
+    max-width: 250px;
+}
+.btn-style1 {
+    padding: 10px 20px;
+    font-size: 12px;
+}
+.btn-style2 {
+    padding: 11px 30px;
+    font-size: 12px;
+}
+.post-comment-wrapper {
+    padding-left: 0;
+}
+.section-title h2 {
+    font-size: 20px;
+    line-height: 30px;
+}
+.wells-wrapper h1 {
+    font-size: 25px;
+}
+.post-wrapper .post-desc .post-meta li {
+    font-size: 13px;
+}
+.checkout-table .body-col .checkout-product-rate {
+    font-size: 14px;
+}
+.checkout-table .body-col input[type="number"] {
+    font-size: 14px;
+}
+.plan-table .btn-style1 {
+    padding: 5px 8px;
+    font-size: 12px;
+}
+}
+
+
+@media only screen and (max-width: 768px) {
+a.cd-faq-trigger {
+    display: block;
+}
+
+
+@media only screen and (max-width: 768px) {
+.cd-faq-items {
+    display: block;
+    position: relative;
+    /* left: 100%; */
+    right: 100%;
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    width: 100%;
+}
+
+ul#basics li {
+    display: block;
+}
+
+.cd-faq-content {
+    display: none;
+}
